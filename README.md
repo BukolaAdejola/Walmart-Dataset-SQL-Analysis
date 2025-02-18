@@ -4,7 +4,15 @@
 ![download](https://github.com/user-attachments/assets/d8aa5251-c749-49fb-8f45-c08876028ce2)
 ## Table of Content
 [Introduction](#Introduction)
+[Dataset Overview](#Dataset-Overview)
+[Project Objective](#Project-Objective)
+[Data cleaning](#Data-Cleaning)
+[Data Discovery](#Data-Discovery)
+[Recommendation](#Recommendation)
+[Conclusion](#Conclusion)
 
+## Introduction
+  
 Walmart, a global retail leader, offers a diverse range of products catering to various aspects of life. 
 This dataset encompasses key categories, showcasing the breadth and depth of Walmart's inventory. 
 From Health and Beauty products that enhance wellness,Electronic Accessories that complement modern gadgets,
@@ -12,7 +20,7 @@ and Home and Lifestyle essentials that make living spaces more comfortable, to S
 Food and Beverages ensuring nutritional needs are met,and Fashion and Accessories keeping customers stylish—this dataset
 provides invaluable insights into Walmart's comprehensive product offerings.
 
-[Dataset Overview](#Dataset-Overview)
+## Dataset Overview
 
 This dataset comprises of 18 columns and 1000 rows:
 -	Invoice ID: A unique key for each customer in the supermarket.
@@ -39,7 +47,7 @@ This dataset comprises of 18 columns and 1000 rows:
 
 
 
-[Project Objective](#Project-Objective)
+## Project Objective
 
 - Generic Question
 1.	How many unique cities does the data have?
@@ -74,7 +82,7 @@ This dataset comprises of 18 columns and 1000 rows:
 9.	Which day of the week has the best avg ratings?
 10.	Which day of the week has the best average ratings per branch?
 
-[Data Cleaning](#Data-Cleaning)
+## Data Cleaning
 - Renaming Table and other selected Columns
 ```sql
 Rename table `walmartsalesdata.csv` to walmart_sales_data;
@@ -120,7 +128,7 @@ set Time_of_day = case
                		 else "Evening"
 			end;
 ```
-[Data Discovery](#Data-Discovery)
+## Data Discovery
 - Generic Question
 1.	How many unique cities does the data have?
 Discovery: The data has three unique cities.
@@ -197,7 +205,7 @@ Discovery: Monday has the best average ratings.
 10.	Which day of the week has the best average ratings per branch?
 Discovery: Branch B has the best average ratings on Monday.
 
-[Recommendation](#Recommendation)
+## Recommendation
 1.	Focus on High-Performing Cities and Branches:
 o	Naypyitaw has the highest revenue and tax percentage/VAT. Branch C, located in Naypyitaw,
 sold more products than the average. Consider investing more resources and marketing efforts
@@ -220,7 +228,7 @@ o	With Ewallet being the most common payment method, ensure that the checkout pr
 o	Fashion accessories are the most common product line for female customers. Tailor marketing campaigns and product
 assortments to cater to this demographic. Additionally, consider expanding the range of fashion accessories to meet demand.
 
-[Conclusion](#Conclusion)
+## Conclusion
 
 This data analysis has provided valuable insights into the performance of different cities, branches, product lines, customer types,
 and sales patterns. By focusing on high-performing areas,optimizing product offerings, enhancing customer experiences, and leveraging 
