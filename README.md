@@ -3,12 +3,18 @@
 
 ![download](https://github.com/user-attachments/assets/d8aa5251-c749-49fb-8f45-c08876028ce2)
 ## Table of Content
-[Introduction](#Introduction)
-[Dataset Overview](#Dataset-Overview)
+- [Introduction](#Introduction)
+
+- [Dataset Overview](#Dataset-Overview)
+
 [Project Objective](#Project-Objective)
+
 [Data cleaning](#Data-Cleaning)
+
 [Data Discovery](#Data-Discovery)
+
 [Recommendation](#Recommendation)
+
 [Conclusion](#Conclusion)
 
 ## Introduction
