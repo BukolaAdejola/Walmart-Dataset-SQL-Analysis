@@ -7,15 +7,15 @@
 
 - [Dataset Overview](#Dataset-Overview)
 
-[Project Objective](#Project-Objective)
+- [Project Objective](#Project-Objective)
 
-[Data cleaning](#Data-Cleaning)
+- [Data cleaning](#Data-Cleaning)
 
-[Data Discovery](#Data-Discovery)
+- [Data Discovery](#Data-Discovery)
 
-[Recommendation](#Recommendation)
+- [Recommendation](#Recommendation)
 
-[Conclusion](#Conclusion)
+- [Conclusion](#Conclusion)
 
 ## Introduction
   
